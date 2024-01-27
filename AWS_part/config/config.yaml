@@ -1,0 +1,13 @@
+connections:
+    s3_connection:
+        aws_access_key : 'AWS ACCESS KEY'
+        aws_secret_access_key : 'AWS SECRET KEY'
+        region_name : ''
+
+
+    postgresql_connection:
+        host: 'HOST'
+        port: 'PORT'
+        database_name : 'DATABASE NAME'
+        username: 'USERNAME'
+        password: 'PASSWORD'
