@@ -1,0 +1,17 @@
+connections:
+    hive_connection:
+        driver_class: 'com.cloudera.hive.jdbc.HS2Driver'
+        host: 'jdbc:hive2://< HOST NAME >:10000/default'
+        truststore_file: 'TRUSTORE FILE'
+        SSLTrustStorePwd: 'TRUSTSTORE PASSWORD'
+        queue: 'QUEUE NAME'
+        jar_files: 'PATH TO JAR FILE'
+        user: 'USER NAME'
+        password: 'PASSWORD'
+
+    aws_connection:
+        aws_access_key_id: 'AWS ACCESS KEY'
+        aws_secret_access_key: 'AWS SECRET KEY'
+        aws_bucket: 'BUCKET NAME'
+        aws_directory: ''
+        aws_region: ''
